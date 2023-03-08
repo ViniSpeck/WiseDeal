@@ -4,14 +4,6 @@
 
 This is a Python application that receives data on products and prices from various stores through an API, normalizes and loads it into a datalake as raw data. It extracts, transforms, and loads the raw data daily and stores the data on a data warehouse. Upon user request, the application queries the price of an item at a particular moment and presents a graph of the price history of that item. It also evaluates through a machine learning model whether it is worth buying the item currently at the store with the lowest price or whether the trend is for the price of the item to decrease.
 
-## Features
-
-- Retrieves data on products and prices from various stores through an API.
-- Normalizes and loads the data into a datalake as raw data.
-- Extracts, transforms, and loads the raw data daily.
-- Stores the data on a data warehouse.
-- Queries the price of an item at a particular moment and presents a graph of the price history of that item.
-- Evaluates whether it is worth buying the item currently at the store with the lowest price or whether the trend is for the price of the item to decrease.
 
 ## Requirements
 
